@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="7" author="grusnac">
+    <createTable tableName="screenings">
+      <column name="id" type="BIGINT" autoIncrement="true">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="screenings_pkey"/>
+      </column>
+      <column name="film_id" type="BIGINT">
+        <constraints nullable="false" references="films(id)" foreignKeyName="fk_screenings_films"/>
+      </column>
+      <column name="room_id" type="BIGINT">
+        <constraints nullable="false" references="rooms(id)" foreignKeyName="fk_screenings_rooms"/>
+      </column>
+      <column name="start_time" type="TIMESTAMP">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+    <rollback>DROP TABLE screenings</rollback>
+  </changeSet>
+</databaseChangeLog>

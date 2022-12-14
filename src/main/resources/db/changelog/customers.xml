@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="3" author="grusnac">
+    <createTable tableName="customers">
+      <column name="id" type="BIGINT" autoIncrement="true">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="customers_pkey"/>
+      </column>
+      <column name="first_name" type="VARCHAR(45)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="last_name" type="VARCHAR(45)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="email" type="VARCHAR(45)">
+        <constraints nullable="false" unique="true"/>
+      </column>
+    </createTable>
+    <rollback>DROP TABLE customers</rollback>
+  </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="2" author="grusnac">
+    <insert tableName="films">
+      <column name="id" valueNumeric="1"/>
+      <column name="name" value="Blade Runner 2049"/>
+      <column name="length_in_minutes" valueNumeric="153"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="2"/>
+      <column name="name" value="Dunkirk"/>
+      <column name="length_in_minutes" valueNumeric="106"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="3"/>
+      <column name="name" value="Geostorm"/>
+      <column name="length_in_minutes" valueNumeric="121"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="4"/>
+      <column name="name" value="Thor: Ragnarok"/>
+      <column name="length_in_minutes" valueNumeric="107"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="5"/>
+      <column name="name" value="Jigsaw"/>
+      <column name="length_in_minutes" valueNumeric="116"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="6"/>
+      <column name="name" value="The Death of Stalin"/>
+      <column name="length_in_minutes" valueNumeric="98"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="7"/>
+      <column name="name" value="The Lego Ninjago Movie"/>
+      <column name="length_in_minutes" valueNumeric="101"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="8"/>
+      <column name="name" value="Murder on the Orient Express"/>
+      <column name="length_in_minutes" valueNumeric="135"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="9"/>
+      <column name="name" value="Paddington 2"/>
+      <column name="length_in_minutes" valueNumeric="88"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="10"/>
+      <column name="name" value="Breathe"/>
+      <column name="length_in_minutes" valueNumeric="117"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="11"/>
+      <column name="name" value="Blade Runner"/>
+      <column name="length_in_minutes" valueNumeric="127"/>
+    </insert>
+    <insert tableName="films">
+      <column name="id" valueNumeric="12"/>
+      <column name="name" value="Victoria and Abdul"/>
+      <column name="length_in_minutes" valueNumeric="112"/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>

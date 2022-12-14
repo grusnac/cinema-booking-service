@@ -1,0 +1,727 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="4" author="grusnac">
+    <insert tableName="customers">
+      <column name="id" valueNumeric="1"/>
+      <column name="first_name" value="David"/>
+      <column name="last_name" value="May"/>
+      <column name="email" value="dmay@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="2"/>
+      <column name="first_name" value="Theresa"/>
+      <column name="last_name" value="Davis"/>
+      <column name="email" value="tdavis@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="3"/>
+      <column name="first_name" value="Jerry"/>
+      <column name="last_name" value="Martin"/>
+      <column name="email" value="jermar@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="4"/>
+      <column name="first_name" value="John"/>
+      <column name="last_name" value="Smith"/>
+      <column name="email" value="smithy@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="5"/>
+      <column name="first_name" value="Martin"/>
+      <column name="last_name" value="Watkins"/>
+      <column name="email" value="mwatto@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="6"/>
+      <column name="first_name" value="Emma"/>
+      <column name="last_name" value="Watson"/>
+      <column name="email" value="itswingardiumleviosa@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="7"/>
+      <column name="first_name" value="Javier"/>
+      <column name="last_name" value="Pastore"/>
+      <column name="email" value="jp@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="8"/>
+      <column name="first_name" value="Charlotte"/>
+      <column name="last_name" value="Hare"/>
+      <column name="email" value="chare@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="9"/>
+      <column name="first_name" value="Mark"/>
+      <column name="last_name" value="Smith"/>
+      <column name="email" value="markysmith@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="10"/>
+      <column name="first_name" value="Emily"/>
+      <column name="last_name" value="Thorne"/>
+      <column name="email" value="ethorne@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="11"/>
+      <column name="first_name" value="David"/>
+      <column name="last_name" value="Paul"/>
+      <column name="email" value="davpaul@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="12"/>
+      <column name="first_name" value="Cherry"/>
+      <column name="last_name" value="Wang"/>
+      <column name="email" value="cherryw@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="13"/>
+      <column name="first_name" value="Bort"/>
+      <column name="last_name" value="Simpson"/>
+      <column name="email" value="mynameisbort@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="14"/>
+      <column name="first_name" value="Emma"/>
+      <column name="last_name" value="Connor"/>
+      <column name="email" value="econ@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="15"/>
+      <column name="first_name" value="Jonathan"/>
+      <column name="last_name" value="Edwards"/>
+      <column name="email" value="jedwards@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="16"/>
+      <column name="first_name" value="Simon"/>
+      <column name="last_name" value="Davis"/>
+      <column name="email" value="sdavis@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="17"/>
+      <column name="first_name" value="Sophie"/>
+      <column name="last_name" value="Marshall"/>
+      <column name="email" value="sophmarsh@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="18"/>
+      <column name="first_name" value="Sally"/>
+      <column name="last_name" value="Lam"/>
+      <column name="email" value="slam@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="19"/>
+      <column name="first_name" value="Kenneth"/>
+      <column name="last_name" value="Harrison"/>
+      <column name="email" value="kson@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="20"/>
+      <column name="first_name" value="Kenneth"/>
+      <column name="last_name" value="Smith"/>
+      <column name="email" value="ksmith@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="21"/>
+      <column name="first_name" value="Harry"/>
+      <column name="last_name" value="Weasley"/>
+      <column name="email" value="whatsmyname@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="22"/>
+      <column name="first_name" value="Ron"/>
+      <column name="last_name" value="Potter"/>
+      <column name="email" value="thatsmyname@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="23"/>
+      <column name="first_name" value="Ray"/>
+      <column name="last_name" value="Wilkinson"/>
+      <column name="email" value="wilky@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="24"/>
+      <column name="first_name" value="Samuel"/>
+      <column name="last_name" value="Windsor"/>
+      <column name="email" value="royalty@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="25"/>
+      <column name="first_name" value="Jennifer"/>
+      <column name="last_name" value="David"/>
+      <column name="email" value="jda@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="26"/>
+      <column name="first_name" value="Larry"/>
+      <column name="last_name" value="Davis"/>
+      <column name="email" value="larryd@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="27"/>
+      <column name="first_name" value="Bolt"/>
+      <column name="last_name" value="Tin"/>
+      <column name="email" value="btin@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="28"/>
+      <column name="first_name" value="Sarah"/>
+      <column name="last_name" value="Thompson"/>
+      <column name="email" value="sthompson1977@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="29"/>
+      <column name="first_name" value="Alan"/>
+      <column name="last_name" value="Bennet"/>
+      <column name="email" value="thosewerethedays@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="30"/>
+      <column name="first_name" value="Brian"/>
+      <column name="last_name" value="Apple"/>
+      <column name="email" value="bapple101@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="31"/>
+      <column name="first_name" value="Rob"/>
+      <column name="last_name" value="Bryson"/>
+      <column name="email" value="rbry@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="32"/>
+      <column name="first_name" value="Shelly"/>
+      <column name="last_name" value="Zu"/>
+      <column name="email" value="szu@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="33"/>
+      <column name="first_name" value="Steve"/>
+      <column name="last_name" value="Shoogan"/>
+      <column name="email" value="sshoogan@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="34"/>
+      <column name="first_name" value="Matthew"/>
+      <column name="last_name" value="Gray"/>
+      <column name="email" value="graym@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="35"/>
+      <column name="first_name" value="Sally"/>
+      <column name="last_name" value="Kramer"/>
+      <column name="email" value="kallysramer@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="36"/>
+      <column name="first_name" value="Peter"/>
+      <column name="last_name" value="Chef"/>
+      <column name="email" value="chefp@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="37"/>
+      <column name="first_name" value="Matthew"/>
+      <column name="last_name" value="Cooke"/>
+      <column name="email" value="mcooke@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="38"/>
+      <column name="first_name" value="Marty"/>
+      <column name="last_name" value="Seinfeld"/>
+      <column name="email" value="marfeld@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="39"/>
+      <column name="first_name" value="Carl"/>
+      <column name="last_name" value="Green"/>
+      <column name="email" value="creen@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="40"/>
+      <column name="first_name" value="Emma"/>
+      <column name="last_name" value="Greene"/>
+      <column name="email" value="egreene@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="41"/>
+      <column name="first_name" value="Michael"/>
+      <column name="last_name" value="Bannon"/>
+      <column name="email" value="mbannon@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="42"/>
+      <column name="first_name" value="Paul"/>
+      <column name="last_name" value="Showman"/>
+      <column name="email" value="theshowman1@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="43"/>
+      <column name="first_name" value="Harry"/>
+      <column name="last_name" value="Goldthistle"/>
+      <column name="email" value="hgold@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="44"/>
+      <column name="first_name" value="Gill"/>
+      <column name="last_name" value="Newton"/>
+      <column name="email" value="gnew@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="45"/>
+      <column name="first_name" value="Preston"/>
+      <column name="last_name" value="Peters"/>
+      <column name="email" value="p2p@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="46"/>
+      <column name="first_name" value="Simon"/>
+      <column name="last_name" value="Smithson"/>
+      <column name="email" value="sismithson@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="47"/>
+      <column name="first_name" value="Benjamin"/>
+      <column name="last_name" value="Rabbit"/>
+      <column name="email" value="brabbit@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="48"/>
+      <column name="first_name" value="Jerry"/>
+      <column name="last_name" value="David"/>
+      <column name="email" value="curb@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="49"/>
+      <column name="first_name" value="Olivia"/>
+      <column name="last_name" value="Tulip"/>
+      <column name="email" value="otulip@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="50"/>
+      <column name="first_name" value="Richard"/>
+      <column name="last_name" value="Horne"/>
+      <column name="email" value="richhorne@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="51"/>
+      <column name="first_name" value="Betty"/>
+      <column name="last_name" value="Corbe"/>
+      <column name="email" value="bcorbe@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="52"/>
+      <column name="first_name" value="Anne"/>
+      <column name="last_name" value="Callaway"/>
+      <column name="email" value="acway@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="53"/>
+      <column name="first_name" value="Yifan"/>
+      <column name="last_name" value="Way"/>
+      <column name="email" value="yway@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="54"/>
+      <column name="first_name" value="Charlie"/>
+      <column name="last_name" value="Cheene"/>
+      <column name="email" value="ccheene@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="55"/>
+      <column name="first_name" value="Ula"/>
+      <column name="last_name" value="Boon"/>
+      <column name="email" value="uboon@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="56"/>
+      <column name="first_name" value="Buster"/>
+      <column name="last_name" value="David"/>
+      <column name="email" value="bdavid@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="57"/>
+      <column name="first_name" value="Dustin"/>
+      <column name="last_name" value="Beer"/>
+      <column name="email" value="beerd@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="58"/>
+      <column name="first_name" value="John"/>
+      <column name="last_name" value="Sleet"/>
+      <column name="email" value="knoweverything@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="59"/>
+      <column name="first_name" value="August"/>
+      <column name="last_name" value="Summer"/>
+      <column name="email" value="asummer@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="60"/>
+      <column name="first_name" value="Linda"/>
+      <column name="last_name" value="Martins"/>
+      <column name="email" value="lmart@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="61"/>
+      <column name="first_name" value="Chris"/>
+      <column name="last_name" value="Kay"/>
+      <column name="email" value="chkay@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="62"/>
+      <column name="first_name" value="Christopher"/>
+      <column name="last_name" value="Roberts"/>
+      <column name="email" value="croberts@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="63"/>
+      <column name="first_name" value="Robert"/>
+      <column name="last_name" value="Winston"/>
+      <column name="email" value="rwin@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="64"/>
+      <column name="first_name" value="Daniel"/>
+      <column name="last_name" value="Orbe"/>
+      <column name="email" value="dorbe@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="65"/>
+      <column name="first_name" value="Joshua"/>
+      <column name="last_name" value="Wells"/>
+      <column name="email" value="wellj@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="66"/>
+      <column name="first_name" value="Fred"/>
+      <column name="last_name" value="Flinton"/>
+      <column name="email" value="ff100@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="67"/>
+      <column name="first_name" value="Paula"/>
+      <column name="last_name" value="Winner"/>
+      <column name="email" value="pwinner@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="68"/>
+      <column name="first_name" value="Daniel"/>
+      <column name="last_name" value="Canter"/>
+      <column name="email" value="dcanter99@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="69"/>
+      <column name="first_name" value="Michael"/>
+      <column name="last_name" value="Bassett"/>
+      <column name="email" value="mbass@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="70"/>
+      <column name="first_name" value="Michelle"/>
+      <column name="last_name" value="Martins"/>
+      <column name="email" value="mm109@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="71"/>
+      <column name="first_name" value="Lorna"/>
+      <column name="last_name" value="Brown"/>
+      <column name="email" value="lbrown@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="72"/>
+      <column name="first_name" value="Kerry"/>
+      <column name="last_name" value="Vale"/>
+      <column name="email" value="wish1985@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="73"/>
+      <column name="first_name" value="Sean"/>
+      <column name="last_name" value="Borne"/>
+      <column name="email" value="sborne@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="74"/>
+      <column name="first_name" value="Craig"/>
+      <column name="last_name" value="Evans"/>
+      <column name="email" value="cevans@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="75"/>
+      <column name="first_name" value="Alex"/>
+      <column name="last_name" value="Sanders"/>
+      <column name="email" value="asand@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="76"/>
+      <column name="first_name" value="George"/>
+      <column name="last_name" value="McNabb"/>
+      <column name="email" value="gnabb@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="77"/>
+      <column name="first_name" value="Richard"/>
+      <column name="last_name" value="Trout"/>
+      <column name="email" value="redtrout@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="78"/>
+      <column name="first_name" value="Stewart"/>
+      <column name="last_name" value="Dee"/>
+      <column name="email" value="sdee@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="79"/>
+      <column name="first_name" value="Sue"/>
+      <column name="last_name" value="Werkins"/>
+      <column name="email" value="swerkins@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="80"/>
+      <column name="first_name" value="Mel"/>
+      <column name="last_name" value="Wozniack"/>
+      <column name="email" value="mwoz@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="81"/>
+      <column name="first_name" value="Steve"/>
+      <column name="last_name" value="Dole"/>
+      <column name="email" value="sdole@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="82"/>
+      <column name="first_name" value="Zara"/>
+      <column name="last_name" value="Yelland"/>
+      <column name="email" value="zy27@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="83"/>
+      <column name="first_name" value="Irene"/>
+      <column name="last_name" value="Mellon"/>
+      <column name="email" value="mellonirene@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="84"/>
+      <column name="first_name" value="Karen"/>
+      <column name="last_name" value="Wall"/>
+      <column name="email" value="kwall@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="85"/>
+      <column name="first_name" value="Lucy"/>
+      <column name="last_name" value="Oak"/>
+      <column name="email" value="loak@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="86"/>
+      <column name="first_name" value="Orson"/>
+      <column name="last_name" value="Young"/>
+      <column name="email" value="oyoung@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="87"/>
+      <column name="first_name" value="Oliver"/>
+      <column name="last_name" value="Daniels"/>
+      <column name="email" value="odaniels@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="88"/>
+      <column name="first_name" value="Queen"/>
+      <column name="last_name" value="Bee"/>
+      <column name="email" value="qbee@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="89"/>
+      <column name="first_name" value="Vera"/>
+      <column name="last_name" value="Jack"/>
+      <column name="email" value="verajack@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="90"/>
+      <column name="first_name" value="Thomas"/>
+      <column name="last_name" value="Soft"/>
+      <column name="email" value="softt@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="91"/>
+      <column name="first_name" value="Nathan"/>
+      <column name="last_name" value="Blair"/>
+      <column name="email" value="nblair@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="92"/>
+      <column name="first_name" value="Tim"/>
+      <column name="last_name" value="Jones"/>
+      <column name="email" value="tjones@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="93"/>
+      <column name="first_name" value="Nicola"/>
+      <column name="last_name" value="Jenkins"/>
+      <column name="email" value="njenk@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="94"/>
+      <column name="first_name" value="Olivia"/>
+      <column name="last_name" value="Jones"/>
+      <column name="email" value="ojo@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="95"/>
+      <column name="first_name" value="James"/>
+      <column name="last_name" value="Depp"/>
+      <column name="email" value="jdepp@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="96"/>
+      <column name="first_name" value="Meryl"/>
+      <column name="last_name" value="Steep"/>
+      <column name="email" value="msteep@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="97"/>
+      <column name="first_name" value="Jake"/>
+      <column name="last_name" value="Portman"/>
+      <column name="email" value="jportman@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="98"/>
+      <column name="first_name" value="Jenny"/>
+      <column name="last_name" value="Appleton"/>
+      <column name="email" value="japple@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="99"/>
+      <column name="first_name" value="Simon"/>
+      <column name="last_name" value="Hoover"/>
+      <column name="email" value="shoover@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="100"/>
+      <column name="first_name" value="Belinda"/>
+      <column name="last_name" value="Marshall"/>
+      <column name="email" value="belindam@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="101"/>
+      <column name="first_name" value="Stephanie"/>
+      <column name="last_name" value="Watson"/>
+      <column name="email" value="swatson@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="102"/>
+      <column name="first_name" value="Art"/>
+      <column name="last_name" value="Simons"/>
+      <column name="email" value="simons@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="103"/>
+      <column name="first_name" value="Stan"/>
+      <column name="last_name" value="Smith"/>
+      <column name="email" value="smithstan@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="104"/>
+      <column name="first_name" value="Christopher"/>
+      <column name="last_name" value="Roberts"/>
+      <column name="email" value="robertsc@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="105"/>
+      <column name="first_name" value="Nathan"/>
+      <column name="last_name" value="Gold"/>
+      <column name="email" value="engold@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="106"/>
+      <column name="first_name" value="Alain"/>
+      <column name="last_name" value="Bennet"/>
+      <column name="email" value="alainb@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="107"/>
+      <column name="first_name" value="Lewis"/>
+      <column name="last_name" value="Russelton"/>
+      <column name="email" value="lrus@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="108"/>
+      <column name="first_name" value="Josh"/>
+      <column name="last_name" value="Reynolds"/>
+      <column name="email" value="jrey@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="109"/>
+      <column name="first_name" value="William"/>
+      <column name="last_name" value="Williams"/>
+      <column name="email" value="williamw@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="110"/>
+      <column name="first_name" value="Alain"/>
+      <column name="last_name" value="Pointer"/>
+      <column name="email" value="apointer@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="111"/>
+      <column name="first_name" value="Bort"/>
+      <column name="last_name" value="Skinner"/>
+      <column name="email" value="mynameisalsobort@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="112"/>
+      <column name="first_name" value="Lon"/>
+      <column name="last_name" value="Smith"/>
+      <column name="email" value="lonsmith@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="113"/>
+      <column name="first_name" value="Susan"/>
+      <column name="last_name" value="Williams"/>
+      <column name="email" value="swill@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="114"/>
+      <column name="first_name" value="Yu"/>
+      <column name="last_name" value="Xi"/>
+      <column name="email" value="yuxi@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="115"/>
+      <column name="first_name" value="Annabelle"/>
+      <column name="last_name" value="Winks"/>
+      <column name="email" value="anwinks@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="116"/>
+      <column name="first_name" value="Andrew"/>
+      <column name="last_name" value="Landhurst"/>
+      <column name="email" value="andylandy@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="117"/>
+      <column name="first_name" value="Winston"/>
+      <column name="last_name" value="Smith"/>
+      <column name="email" value="room101@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="118"/>
+      <column name="first_name" value="Gemma"/>
+      <column name="last_name" value="Arton"/>
+      <column name="email" value="garton@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="119"/>
+      <column name="first_name" value="Renton"/>
+      <column name="last_name" value="McDonald"/>
+      <column name="email" value="rent@gmail.com"/>
+    </insert>
+    <insert tableName="customers">
+      <column name="id" valueNumeric="120"/>
+      <column name="first_name" value="Maggie"/>
+      <column name="last_name" value="Chu"/>
+      <column name="email" value="chuchu@gmail.com"/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <include file="classpath:db/changelog/films.xml"/>
+  <include file="classpath:db/changelog/films-data.xml"/>
+  <include file="classpath:db/changelog/customers.xml"/>
+  <include file="classpath:db/changelog/customers-data.xml"/>
+  <include file="classpath:db/changelog/rooms.xml"/>
+  <include file="classpath:db/changelog/rooms-data.xml"/>
+  <include file="classpath:db/changelog/screenings.xml"/>
+  <include file="classpath:db/changelog/screenings-data.xml"/>
+  <include file="classpath:db/changelog/seats.xml"/>
+  <include file="classpath:db/changelog/seats-data.xml"/>
+  <include file="classpath:db/changelog/bookings.xml"/>
+  <include file="classpath:db/changelog/bookings-data.xml"/>
+  <include file="classpath:db/changelog/reserved-seats.xml"/>
+  <include file="classpath:db/changelog/reserved-seats-data.xml"/>
+</databaseChangeLog>

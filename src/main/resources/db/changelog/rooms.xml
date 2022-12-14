@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="5" author="grusnac">
+    <createTable tableName="rooms">
+      <column name="id" type="BIGINT" autoIncrement="true">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="rooms_pkey"/>
+      </column>
+      <column name="name" type="VARCHAR(45)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="number_of_seats" type="INT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+    <rollback>DROP TABLE rooms</rollback>
+  </changeSet>
+</databaseChangeLog>

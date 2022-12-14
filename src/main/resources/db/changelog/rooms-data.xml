@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="6" author="grusnac">
+    <insert tableName="rooms">
+      <column name="id" valueNumeric="1"/>
+      <column name="name" value="Chaplin"/>
+      <column name="number_of_seats" valueNumeric="72"/>
+    </insert>
+    <insert tableName="rooms">
+      <column name="id" valueNumeric="2"/>
+      <column name="name" value="Kubrick"/>
+      <column name="number_of_seats" valueNumeric="36"/>
+    </insert>
+    <insert tableName="rooms">
+      <column name="id" valueNumeric="3"/>
+      <column name="name" value="Coppola"/>
+      <column name="number_of_seats" valueNumeric="36"/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>

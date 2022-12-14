@@ -1,0 +1,871 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="10" author="grusnac">
+    <insert tableName="seats">
+      <column name="id" valueNumeric="1"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="2"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="3"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="4"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="5"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="6"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="7"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="8"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="9"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="10"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="11"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="12"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="13"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="14"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="15"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="16"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="17"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="18"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="19"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="20"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="21"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="22"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="23"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="24"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="25"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="26"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="27"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="28"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="29"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="30"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="31"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="32"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="33"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="34"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="35"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="36"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="37"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="38"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="39"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="40"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="41"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="42"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="43"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="44"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="45"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="46"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="47"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="48"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="49"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="50"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="51"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="52"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="53"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="54"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="55"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="56"/>
+      <column name="row" value="G"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="57"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="58"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="59"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="60"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="61"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="62"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="63"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="64"/>
+      <column name="row" value="H"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="65"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="66"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="67"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="68"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="69"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="70"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="71"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="7"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="72"/>
+      <column name="row" value="I"/>
+      <column name="number" valueNumeric="8"/>
+      <column name="room_id" valueNumeric="1"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="73"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="74"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="75"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="76"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="77"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="78"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="79"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="80"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="81"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="82"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="83"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="84"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="85"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="86"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="87"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="88"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="89"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="90"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="91"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="92"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="93"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="94"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="95"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="96"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="97"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="98"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="99"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="100"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="101"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="102"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="103"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="104"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="105"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="106"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="107"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="108"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="2"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="109"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="110"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="111"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="112"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="113"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="114"/>
+      <column name="row" value="A"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="115"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="116"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="117"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="118"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="119"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="120"/>
+      <column name="row" value="B"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="121"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="122"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="123"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="124"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="125"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="126"/>
+      <column name="row" value="C"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="127"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="128"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="129"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="130"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="131"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="132"/>
+      <column name="row" value="D"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="133"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="134"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="135"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="136"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="137"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="138"/>
+      <column name="row" value="E"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="139"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="1"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="140"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="2"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="141"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="3"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="142"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="4"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="143"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="5"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+    <insert tableName="seats">
+      <column name="id" valueNumeric="144"/>
+      <column name="row" value="F"/>
+      <column name="number" valueNumeric="6"/>
+      <column name="room_id" valueNumeric="3"/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>

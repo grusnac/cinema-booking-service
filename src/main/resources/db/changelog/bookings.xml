@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <changeSet id="11" author="grusnac">
+    <createTable tableName="bookings">
+      <column name="id" type="BIGINT" autoIncrement="true">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="bookings_pkey"/>
+      </column>
+      <column name="customer_id" type="BIGINT">
+        <constraints nullable="false" references="customers(id)" foreignKeyName="fk_booking_customer"/>
+      </column>
+      <column name="screening_id" type="BIGINT">
+        <constraints nullable="false" references="screenings(id)" foreignKeyName="fk_booking_screenings"/>
+      </column>
+    </createTable>
+    <rollback>DROP TABLE bookings</rollback>
+  </changeSet>
+</databaseChangeLog>

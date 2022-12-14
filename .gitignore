@@ -1,0 +1,108 @@
+##############################
+## Java
+##############################
+*.class
+*.ear
+*.jar
+*.nar
+*.war
+.mtj.tmp/
+hs_err_pid*
+
+##############################
+## Maven
+##############################
+**/target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.bak
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+target/
+
+##############################
+## Gradle
+##############################
+gradle-wrapper.jar
+.gradle
+.gradletasknamecache
+bin/
+build/
+gradle-app.setting
+
+##############################
+## IntelliJ
+##############################
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+out/
+
+##############################
+## Eclipse
+##############################
+*.bak
+*.swp
+*.tmp
+*~.nib
+.classpath
+.factorypath
+.loadpath
+.metadata
+.project
+.settings/
+bin/
+local.properties
+tmp/
+
+##############################
+## NetBeans
+##############################
+/.nb-gradle/
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/nbproject/private/
+build/
+dist/
+nb-configuration.xml
+nbactions.xml
+nbbuild/
+nbdist/
+nbproject/private/
+
+##############################
+## Visual Studio Code
+##############################
+.code-workspace
+.vscode/
+
+##############################
+## OS X
+##############################
+.DS_Store
+
+##############################
+## STS
+##############################
+.apt_generated
+.classpath
+.factorypath
+.mvn
+.project
+.settings
+.springBeans
+.sts4-cache
+
+##############################
+## Docker
+##############################
+/db
