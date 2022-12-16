@@ -18,5 +18,6 @@
       <column name="name" value="Coppola"/>
       <column name="number_of_seats" valueNumeric="36"/>
     </insert>
+    <rollback>DELETE FROM rooms WHERE true</rollback>
   </changeSet>
 </databaseChangeLog>

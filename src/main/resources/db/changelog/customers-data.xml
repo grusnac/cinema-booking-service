@@ -723,5 +723,6 @@
       <column name="last_name" value="Chu"/>
       <column name="email" value="chuchu@gmail.com"/>
     </insert>
+    <rollback>DELETE FROM customers WHERE true</rollback>
   </changeSet>
 </databaseChangeLog>

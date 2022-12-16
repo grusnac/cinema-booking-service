@@ -3718,5 +3718,6 @@
       <column name="booking_id" valueNumeric="410"/>
       <column name="seat_id" valueNumeric="119"/>
     </insert>
+    <rollback>DELETE FROM reserved_seats WHERE true</rollback>
   </changeSet>
 </databaseChangeLog>

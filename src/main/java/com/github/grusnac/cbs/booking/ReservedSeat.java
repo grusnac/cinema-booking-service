@@ -8,7 +8,8 @@ import java.util.Objects;
 @Table(name = "reserved_seats")
 public class ReservedSeat {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(generator = "reserved_seats_seq", strategy = GenerationType.SEQUENCE)
+  @SequenceGenerator(name = "reserved_seats_seq", allocationSize = 1)
   private long id;
 
   @ManyToOne

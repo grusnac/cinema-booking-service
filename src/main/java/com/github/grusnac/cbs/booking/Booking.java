@@ -10,7 +10,8 @@ import java.util.Objects;
 @Table(name = "bookings")
 public class Booking {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(generator = "bookings_seq", strategy = GenerationType.SEQUENCE)
+  @SequenceGenerator(name = "bookings_seq", allocationSize = 1)
   private long id;
 
   @ManyToOne

@@ -63,5 +63,6 @@
       <column name="name" value="Victoria and Abdul"/>
       <column name="length_in_minutes" valueNumeric="112"/>
     </insert>
+    <rollback>DELETE FROM films WHERE true</rollback>
   </changeSet>
 </databaseChangeLog>

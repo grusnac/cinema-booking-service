@@ -3,8 +3,9 @@
                    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
   <changeSet id="11" author="grusnac">
+    <createSequence sequenceName="bookings_seq" incrementBy="1" startValue="1"/>
     <createTable tableName="bookings">
-      <column name="id" type="BIGINT" autoIncrement="true">
+      <column name="id" type="BIGINT" valueComputed="nextval('bookings_seq')">
         <constraints nullable="false" primaryKey="true" primaryKeyName="bookings_pkey"/>
       </column>
       <column name="customer_id" type="BIGINT">

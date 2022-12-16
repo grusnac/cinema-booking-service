@@ -13,7 +13,8 @@ services:
     ports:
       - 5433:5432
     volumes:
-      - ./db/:/var/lib/postgresql/data/
+#      - ./db/:/var/lib/postgresql/data/
+      - postgres-data:/var/lib/postgresql/data/
       - ./docker/:/docker-entrypoint-initdb.d/
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready -U postgres" ]
@@ -29,3 +30,7 @@ services:
         condition: service_healthy
     ports:
       - 8080:8080
+volumes:
+  postgres-data:
+    driver: local
+    name: postgres-data

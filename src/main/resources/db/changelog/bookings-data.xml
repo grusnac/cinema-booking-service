@@ -2053,5 +2053,6 @@
       <column name="customer_id" valueNumeric="40"/>
       <column name="screening_id" valueNumeric="213"/>
     </insert>
+    <rollback>DELETE FROM bookings WHERE true</rollback>
   </changeSet>
 </databaseChangeLog>

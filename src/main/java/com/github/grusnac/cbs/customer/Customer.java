@@ -4,11 +4,12 @@ import jakarta.persistence.*;
 
 import java.util.Objects;
 
-@Table(name = "customers")
 @Entity(name = "customer")
+@Table(name = "customers")
 public class Customer {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(generator = "customers_seq", strategy = GenerationType.SEQUENCE)
+  @SequenceGenerator(name = "customers_seq", allocationSize = 1)
   private long id;
 
   @Column(name = "first_name")

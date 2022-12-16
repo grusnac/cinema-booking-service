@@ -3,8 +3,9 @@
                    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
   <changeSet id="1" author="grusnac">
+    <createSequence sequenceName="films_seq" incrementBy="1" startValue="1"/>
     <createTable tableName="films">
-      <column name="id" type="BIGINT" autoIncrement="true">
+      <column name="id" type="BIGINT" valueComputed="nextval('films_seq')">
         <constraints nullable="false" primaryKey="true" primaryKeyName="films_pkey"/>
       </column>
       <column name="name" type="VARCHAR(45)">

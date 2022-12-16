@@ -867,5 +867,6 @@
       <column name="number" valueNumeric="6"/>
       <column name="room_id" valueNumeric="3"/>
     </insert>
+    <rollback>DELETE FROM seats WHERE true</rollback>
   </changeSet>
 </databaseChangeLog>

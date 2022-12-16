@@ -1281,5 +1281,6 @@
       <column name="room_id" valueNumeric="3"/>
       <column name="start_time" valueDate="2017-10-31T17:00:00"/>
     </insert>
+    <rollback>DELETE FROM screenings WHERE true</rollback>
   </changeSet>
 </databaseChangeLog>

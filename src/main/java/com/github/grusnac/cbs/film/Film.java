@@ -8,7 +8,8 @@ import java.util.Objects;
 @Table(name = "films")
 public class Film {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(generator = "films_seq", strategy = GenerationType.SEQUENCE)
+  @SequenceGenerator(name = "films_seq", allocationSize = 1)
   private long id;
 
   @Column(name = "name")
